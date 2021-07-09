@@ -17,6 +17,7 @@ function Content() {
                     Muhamad Rizki Triyanto
                 </h1>
                 <h2 className="text-white font-mono lg:text-2xl md:text-1xl sm:text-base text-base mb-8 ">
+                    {/* Menggunakan modul Typical yang harus di instal terlebih dahulu https://www.npmjs.com/package/react-typical */}
                     <Typical
                         steps={['Hello 👋 ', 1000, 'I am computer science student', 1000, 'at Diponegoro University', 1000, 'Do you want more about me? ', 1000, '👇 Click Below 👇', 1000,]}
                         loop={Infinity}

@@ -1,6 +1,7 @@
 
 function GridBackground() {
     return (
+        // Pembuatan background grid menggunakan beberapa baris dan memandaatkan css grid
         <div className="absolute inset-0 p-2 grid grid-cols-11 gap-1">
                 {/* baris 1 */}
                 <div className="col-span-1 bg-gray-700 rounded animate-pulse">  </div>

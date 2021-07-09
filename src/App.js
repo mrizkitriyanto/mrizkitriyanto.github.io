@@ -15,6 +15,7 @@ function App() {
   return (
     <>
       <Navbar />
+      {/* Menggunakan Route untuk menghubungkan ke halaman lainnya */}
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={about} />

@@ -10,6 +10,7 @@ function articles() {
             </div>
             <div className="w-2/3 mx-10">
                 <h1 className="lg:text-6xl md:text-5xl sm:text-2xl text-2xl font-black mb-3 font-sans text-black">
+                    {/* Menggunakan modul Typical yang harus di instal terlebih dahulu https://www.npmjs.com/package/react-typical */}
                     <Typical
                         steps={['C ', 500, 'Coming Soon! 🤙', 500]}
                         loop={Infinity}

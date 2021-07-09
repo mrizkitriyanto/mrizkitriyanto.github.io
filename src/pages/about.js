@@ -10,6 +10,8 @@ import Network from "../images/comptia-network-plus.png";
 function about() {
     return (
         <div className="overflow-y-auto pt-20 lg:pt-0 bg-gray-900">
+
+            {/* Halaman about bagian awal */}
             <div className="flex flex-col lg:pl-40 lg:pt-40 lg:flex-row justify-center lg:justify-between items-center">
                 <div className="mx-9 flex justify-center items-center ">
                     <img src={Foto} alt="Construct" className="h-60 mb-10" />
@@ -31,21 +33,26 @@ function about() {
                 </div>
             </div>
 
-
+            {/* Bagian ke dua - Link ke medsos */}
             <div className="mt-10 flex flex-row w-2/3 mx-14 items-center lg:items-start">
                 <p className="text-white text-sm font-extrabold font-mono">Riyan/</p>
-                <a href="https://github.com/mrizkitriyanto" className="text-blue-500 text-sm font-extrabold font-mono hover:text-gray-300">Github/</a>
-                <a href="https://t.me/muhamadrizkitriyanto" className="text-blue-500 text-sm font-extrabold font-mono hover:text-gray-300">Telegram/</a>
-                <a href="https://www.instagram.com/thecyberwarboy" className="text-blue-500 text-sm font-extrabold font-mono hover:text-gray-300">Instagram/</a>
-                <a href="https://www.linkedin.com/in/muhamad-rizki-triyanto" className="text-blue-500 text-sm font-extrabold font-mono hover:text-gray-300">Linkedin/</a>
+                <a href="https://github.com/mrizkitriyanto" className="text-blue-500 text-sm font-extrabold font-mono hover:text-gray-300" target="_blank" rel="noopener noreferrer">Github/</a>
+                <a href="https://t.me/muhamadrizkitriyanto" className="text-blue-500 text-sm font-extrabold font-mono hover:text-gray-300" target="_blank" rel="noopener noreferrer">Telegram/</a>
+                <a href="https://www.instagram.com/thecyberwarboy" className="text-blue-500 text-sm font-extrabold font-mono hover:text-gray-300" target="_blank" rel="noopener noreferrer">Instagram/</a>
+                <a href="https://www.linkedin.com/in/muhamad-rizki-triyanto" className="text-blue-500 text-sm font-extrabold font-mono hover:text-gray-300" target="_blank" rel="noopener noreferrer">Linkedin/</a>
             </div>
 
+            {/* Bagian Spesialisasi disini ada 2 (Tulisan Soesialisasi dan Item Spesialisasi) yang masing masing dipisah pakai FLEX */}
             <div className="mt-10 flex flex-col justify-between w-full">
+                {/* Judul Tulisan spesialisasi */}
                 <div className="text-xl font-black px-20 mb-8 font-mono text-gray-300 items-start">
                     Specialization.
                 </div>
 
+                {/* Bagian Item Spesialisasi ada 4 pengaturan posisi dengan menggunakan FLEX
+                di bagian (UIUX dan Front end) diakhir kalimat deskripsi ada span dan Br digunakan supaya tinggi containernya sama*/}
                 <div className="flex flex-col lg:flex-row justify-center lg:flex-between lg:px-10 items-center w-full ">
+
                     <div className="m-5 p-5 h-70 w-4/12 bg-white rounded flex flex-col items-start ">
                         <img src={OSCP} alt="Security" className="h-12 mb-2" />
                         <h1 className="text-gray-900 font-black font-mono text-xl">
@@ -55,6 +62,8 @@ function about() {
                             Testing the security of our software, reporting on any security vulnerabilities found. Implements comprehensive information security monitoring, controls assessment, intelligence.
                         </p>
                     </div>
+
+
                     <div className="m-5 p-5 h-70 w-4/12 bg-white rounded">
                         <img src={Figma} alt="UI/UX" className="h-12 mb-2" />
                         <h1 className="text-gray-900 font-black font-mono text-xl">
@@ -65,6 +74,7 @@ function about() {
                             <br /><span className="text-white">.</span>
                         </p>
                     </div>
+
                     <div className="m-5 p-5 h-70 w-4/12 bg-white rounded">
                         <img src={FE} alt="Front-End" className="h-12 mb-2" />
                         <h1 className="text-gray-900 font-black font-mono text-xl">
@@ -76,6 +86,7 @@ function about() {
                             <br /><span className="text-white">.</span>
                         </p>
                     </div>
+
                     <div className="m-5 p-5 h-70 w-4/12 bg-white rounded">
                         <img src={Network} alt="Network" className="h-12 mb-2" />
                         <h1 className="text-gray-900 font-black font-mono text-xl">
