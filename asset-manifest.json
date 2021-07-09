@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/mrizkitriyanto.github.io/static/css/main.010a1fca.chunk.css",
+    "main.js": "/mrizkitriyanto.github.io/static/js/main.3f2294a2.chunk.js",
+    "main.js.map": "/mrizkitriyanto.github.io/static/js/main.3f2294a2.chunk.js.map",
+    "runtime-main.js": "/mrizkitriyanto.github.io/static/js/runtime-main.469ae915.js",
+    "runtime-main.js.map": "/mrizkitriyanto.github.io/static/js/runtime-main.469ae915.js.map",
+    "static/js/2.244f7e79.chunk.js": "/mrizkitriyanto.github.io/static/js/2.244f7e79.chunk.js",
+    "static/js/2.244f7e79.chunk.js.map": "/mrizkitriyanto.github.io/static/js/2.244f7e79.chunk.js.map",
+    "static/js/3.e3b93114.chunk.js": "/mrizkitriyanto.github.io/static/js/3.e3b93114.chunk.js",
+    "static/js/3.e3b93114.chunk.js.map": "/mrizkitriyanto.github.io/static/js/3.e3b93114.chunk.js.map",
+    "index.html": "/mrizkitriyanto.github.io/index.html",
+    "static/css/main.010a1fca.chunk.css.map": "/mrizkitriyanto.github.io/static/css/main.010a1fca.chunk.css.map",
+    "static/js/2.244f7e79.chunk.js.LICENSE.txt": "/mrizkitriyanto.github.io/static/js/2.244f7e79.chunk.js.LICENSE.txt",
+    "static/media/HomeProfile.d745b172.png": "/mrizkitriyanto.github.io/static/media/HomeProfile.d745b172.png",
+    "static/media/Logo.4fa254ce.png": "/mrizkitriyanto.github.io/static/media/Logo.4fa254ce.png",
+    "static/media/fend.07c642fb.png": "/mrizkitriyanto.github.io/static/media/fend.07c642fb.png",
+    "static/media/figma.04a1dba5.png": "/mrizkitriyanto.github.io/static/media/figma.04a1dba5.png",
+    "static/media/oscp.0bef81bf.png": "/mrizkitriyanto.github.io/static/media/oscp.0bef81bf.png",
+    "static/media/under_construction.8488531e.png": "/mrizkitriyanto.github.io/static/media/under_construction.8488531e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.469ae915.js",
+    "static/js/2.244f7e79.chunk.js",
+    "static/css/main.010a1fca.chunk.css",
+    "static/js/main.3f2294a2.chunk.js"
+  ]
+}
