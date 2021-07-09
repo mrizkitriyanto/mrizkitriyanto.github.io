@@ -1,7 +1,6 @@
 
 import './App.css';
 import Navbar from './components/Navbar';
-import Content from '../components/Content';
 import Footer from './components/Footer';
 import Home from './pages';
 import about from './pages/about';
@@ -16,7 +15,6 @@ function App() {
   return (
     <>
       <Navbar />
-      <Content />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={about} />
