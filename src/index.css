@@ -2,3 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.nav-link--selected {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
+    color: rgba(59, 130, 246,1);
+    padding: 1rem 3rem;
+    display: block;
+}

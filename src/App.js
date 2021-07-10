@@ -1,4 +1,3 @@
-
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -7,6 +6,7 @@ import about from './pages/about';
 import articles from './pages/articles';
 import contact from './pages/contact';
 import { Switch, Route } from 'react-router-dom';
+
 
 
 

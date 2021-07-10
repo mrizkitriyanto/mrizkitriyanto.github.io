@@ -6,17 +6,17 @@ import Typical from 'react-typical';
 
 function Content() {
     return (
-        <div className="bg-gray-900 min-h-screen flex flex-col justify-center items-center dark:bg-grey-900 relative py-10">
+        <div className="bg-yellow-50 min-h-screen flex flex-col justify-center items-center dark:bg-gray-900 relative py-10 transition duration-1000">
             {/* background */}
             <GridBackground />
 
             {/* content */}
             <div className="relative h-screen flex flex-col justify-center items-center">
                 <img src={Foto} alt="Profile" className="lg:h-3/5 md:h-2/5 h-2/5  " />
-                <h1 className="lg:text-6xl md:text-5xl sm:text-2xl text-2xl font-black mb-7 font-mono text-white">
+                <h1 className="lg:text-6xl md:text-5xl sm:text-2xl text-2xl font-black mb-7 font-mono text-center text-gray-900 dark:text-gray-200">
                     Muhamad Rizki Triyanto
                 </h1>
-                <h2 className="text-white font-mono lg:text-2xl md:text-1xl sm:text-base text-base mb-8 ">
+                <h2 className="text-gray-900 text-center dark:text-gray-200 font-mono lg:text-2xl md:text-1xl sm:text-base text-base mb-8 ">
                     {/* Menggunakan modul Typical yang harus di instal terlebih dahulu https://www.npmjs.com/package/react-typical */}
                     <Typical
                         steps={['Hello 👋 ', 1000, 'I am computer science student', 1000, 'at Diponegoro University', 1000, 'Do you want more about me? ', 1000, '👇 Click Below 👇', 1000,]}
