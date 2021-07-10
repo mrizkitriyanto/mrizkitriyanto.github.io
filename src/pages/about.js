@@ -34,7 +34,7 @@ function about() {
             </div>
 
             {/* Bagian ke dua - Link ke medsos */}
-            <div className="mt-10 flex flex-row w-2/3 mx-14 items-center lg:items-start">
+            <div className="mt-10 flex lg:flex-row md:flex-row flex-col items-start w-2/3 lg:mx-14 md:mx-10 mx-6 lg:items-start">
                 <p className="text-gray-800 dark:text-white lg:text-md text-sm font-black font-mono">Riyan/</p>
                 <a href="https://github.com/mrizkitriyanto" className="lg:text-md text-sm text-blue-500 text-md font-black font-mono hover:text-gray-800 dark:hover:text-gray-300" target="_blank" rel="noopener noreferrer">Github/</a>
                 <a href="https://t.me/muhamadrizkitriyanto" className="lg:text-md text-sm text-blue-500 text-md font-black font-mono hover:text-gray-800 dark:hover:text-gray-300" target="_blank" rel="noopener noreferrer">Telegram/</a>
@@ -45,7 +45,7 @@ function about() {
             {/* Bagian Spesialisasi disini ada 2 (Tulisan Soesialisasi dan Item Spesialisasi) yang masing masing dipisah pakai FLEX */}
             <div className="mt-10 flex flex-col justify-between w-full">
                 {/* Judul Tulisan spesialisasi */}
-                <div className="text-xl font-black px-20 mb-8 font-mono text-gray-800 dark:text-gray-300 items-start">
+                <div className="text-xl font-black mb-8 font-mono text-gray-800 dark:text-gray-300 items-start text-center ">
                     Specialization.
                 </div>
 
@@ -70,8 +70,8 @@ function about() {
                             UI/UX Design
                         </h1>
                         <p className="mt-6 text-gray-100 dark:text-gray-900 font-mono font-medium text-xs lg:text-sm ">
-                            Make design and implementation of all the experiences a user has when interacting with a digital tool, such as a website or mobile apps.<br /><span className="text-gray-700 darktext-white">.</span>
-                            <br /><span className="text-gray-700 darktext-white">.</span>
+                            Make design and implementation of all the experiences a user has when interacting with a digital tool, such as a website or mobile apps.<br /><span className="text-gray-700 dark:text-white">.</span>
+                            <br /><span className="text-gray-700 dark:text-white">.</span>
                         </p>
                     </div>
 
@@ -82,8 +82,8 @@ function about() {
                             Development
                         </h1>
                         <p className="mt-6 text-gray-100 dark:text-gray-900 font-mono font-medium text-xs lg:text-sm">
-                            Implementing visual and interactive elements that users engage with through their web browser when using a web application.<br /><span className="text-gray-700 darktext-white">.</span>
-                            <br /><span className="text-gray-700 darktext-white">.</span>
+                            Implementing visual and interactive elements that users engage with through their web browser when using a web application.<br /><span className="text-gray-700 dark:text-white">.</span>
+                            <br /><span className="text-gray-700 dark:text-white">.</span>
                         </p>
                     </div>
 

@@ -4,8 +4,8 @@ import Typical from 'react-typical';
 
 function articles() {
     return (
-        <div className="h-screen flex flex-col lg:flex-row justify-center lg:justify-between items-center bg-gradient-to-r from-blue-800 to-green-400 transition duration-1000">
-            <div className="mx-9 flex justify-center items-center ">
+        <div className="overflow-y-auto h-screen flex flex-col lg:flex-row justify-center lg:justify-between items-center bg-gradient-to-r from-blue-800 to-green-400 transition duration-1000">
+            <div className="mx-9 mt-20 flex justify-center items-center ">
                 <img src={Foto} alt="Construct" className="h-60 mb-10" />
             </div>
             <div className="w-2/3 mx-10">
