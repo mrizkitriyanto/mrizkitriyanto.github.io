@@ -23,7 +23,7 @@ export default function ArticleContent() {
     }
 
     return (
-        <div className="bg-yellow-50 dark:bg-gray-900 min-h-screen">
+        <div className="bg-yellow-50 dark:bg-gray-900 min-h-screen transition duration-1000">
             <Judul />
             <Button button={buttons} filter={filter}/>
             <Menu menuItem={menuItem} />
