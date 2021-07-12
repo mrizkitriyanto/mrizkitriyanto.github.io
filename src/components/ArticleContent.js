@@ -2,17 +2,19 @@ import React, { useState } from 'react'
 import items from '../articles-data/allData'
 import Judul from '../articles-data/Judul'
 import Button from '../articles-data/Buttons'
-
 import Menu from '../articles-data/Menu'
 
-
+// Untuk membuat kategori yang ada dan akan dibuat button nantiya
+// pakai Set karena hasilya unique ketimbang map
 const allCategories = ['All', ...new Set(items.map(item => item.category))];
 
 
 export default function ArticleContent() {
+
     const [menuItem, setMenuItem] = useState(items);
     const [buttons] = useState(allCategories);
 
+    // untuk memfilter berdasar category yang ada di allDAta.js
     const filter = (button) => {
         if(button === 'All'){
             setMenuItem(items);
