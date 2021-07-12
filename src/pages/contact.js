@@ -2,7 +2,7 @@ import React from 'react'
 
 function contact() {
     return (
-        <div className="overflow-y-auto  flex justify-center items center bg-yellow-50 dark:bg-gray-900 transition duration-1000">
+        <div className="overflow-y-auto h-screen  flex justify-center items center bg-yellow-50 dark:bg-gray-900 transition duration-1000">
             <div className="mt-40 w-full">
                 <div className="text-center">
                     <h1 className="text-4xl text-gray-800 dark:text-gray-300 font-mono font-black">Contact</h1>

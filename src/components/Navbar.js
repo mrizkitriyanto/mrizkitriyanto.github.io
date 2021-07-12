@@ -13,7 +13,7 @@ export default function Navbar() {
     const [colorTheme, setTheme] = themeContext();
 
     return (
-        <div className="bg-gray-800 fixed z-50 w-full ">
+        <div className="bg-gray-800 fixed z-50 top-0 w-full ">
             <div className="flex flex-col lg:flex-row">
                 <div className="flex justify-between items-center px-4 py-4 lg:py-0 p">
 

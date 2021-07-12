@@ -6,7 +6,7 @@ import Typical from 'react-typical';
 
 function Content() {
     return (
-        <div className="bg-yellow-50 min-h-screen flex flex-col justify-center items-center dark:bg-gray-900 relative py-10 transition duration-1000">
+        <div className="bg-yellow-50 dark:bg-gray-900 min-h-screen flex flex-col justify-center items-center  relative py-10 transition duration-1000">
             {/* background */}
             <GridBackground />
 
