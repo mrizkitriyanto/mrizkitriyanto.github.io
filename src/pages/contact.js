@@ -10,15 +10,15 @@ function contact() {
                 <div className="lg:ml-20 flex flex-col ">
                     <div className="lg:m-10 md:m-10 m-4 ">
                         <h2 className="mt-10 mb-5 lg:mx-20 mx-0 text-2xl text-gray-800 dark:text-gray-300 font-black font-mono">Email</h2>
-                        <a href="mailto:muhamadrizkitriyanto@protonmail.com" className="lg:mx-20 mx-0 lg:text-2xl md:text-lg text-xs text-gray-800 dark:text-gray-300 font-black font-mono hover:text-blue-600 dark:hover:text-blue-600" target="_blank" rel="noopener noreferrer">muhamadrizkitriyanto@protonmail.com</a>
+                        <a href="mailto:muhamadrizkitriyanto@protonmail.com" className="lg:mx-20 mx-0 lg:text-2xl md:text-lg text-xs text-gray-800 dark:text-gray-300 font-medium font-mono hover:text-blue-600 dark:hover:text-blue-600" target="_blank" rel="noopener noreferrer">muhamadrizkitriyanto@protonmail.com</a>
                     </div>
                     <div className="lg:m-10 md:m-10 m-4">
                         <h2 className="mt-10 mb-5 lg:mx-20 mx-0 text-2xl text-gray-800 dark:text-gray-300 font-black font-mono">Telegram</h2>
-                        <a href="https://t.me/mrtotooo" className="lg:mx-20 mx-0 lg:text-2xl md:text-lg text-sm text-gray-800 dark:text-gray-300 font-black font-mono hover:text-blue-600 dark:hover:text-blue-600" target="_blank" rel="noopener noreferrer">@mrtotooo </a>
+                        <a href="https://t.me/mrtotooo" className="lg:mx-20 mx-0 lg:text-2xl md:text-lg text-sm text-gray-800 dark:text-gray-300 font-medium font-mono hover:text-blue-600 dark:hover:text-blue-600" target="_blank" rel="noopener noreferrer">@mrtotooo </a>
                     </div>
                     <div className="lg:m-10 md:m-10 m-4">
                         <h2 className="mt-10 mb-5 lg:mx-20 mx-0 text-2xl text-gray-800 dark:text-gray-200 font-black font-mono">Instagram</h2>
-                        <a href="https://www.instagram.com/thecyberwarboy" className="lg:mx-20 mx-0 lg:text-2xl md:text-lg text-sm text-gray-800 dark:text-gray-200 font-black font-mono hover:text-blue-600 dark:hover:text-blue-600" target="_blank" rel="noopener noreferrer">@thecyberwarboy</a>
+                        <a href="https://www.instagram.com/thecyberwarboy" className="lg:mx-20 mx-0 lg:text-2xl md:text-lg text-sm text-gray-800 dark:text-gray-200 font-medium font-mono hover:text-blue-600 dark:hover:text-blue-600" target="_blank" rel="noopener noreferrer">@thecyberwarboy</a>
                     </div>
                 </div>
             </div>
