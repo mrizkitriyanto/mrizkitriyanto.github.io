@@ -2,6 +2,7 @@ import python from '../images/Python_logo_icon.png';
 import ubuntu from '../images/Ubuntu.png';
 import linux from '../images/linux.png';
 import figma from '../images/figma.png';
+import tailwind from '../images/tailwind.png';
 import virtualbox from '../images/virtualbox.png';
 
 const articleData = [
@@ -25,6 +26,34 @@ const articleData = [
         title: 'Menginstal Linux di Windows ?? ',
         category: 'Linux',
         link: 'https://mrizkitriyanto.github.io/artikel/install-os-di-virtualbox/'
+    },
+    {
+        id:4,
+        image: tailwind,
+        title: 'Cara Konfigurasi Tailwind CSS ? ',
+        category: 'Front-End',
+        link: 'https://mrizkitriyanto.github.io/artikel/config-tailwindcss/'
+    },
+    {
+        id:5,
+        image: tailwind,
+        title: 'Purging Tailwind CSS  ',
+        category: 'Front-End',
+        link: 'https://mrizkitriyanto.github.io/artikel/purge-tailwindcss/'
+    },
+    {
+        id:6,
+        image: tailwind,
+        title: 'Deploy Project Tailwind ke Github Pages ',
+        category: 'Front-End',
+        link: 'https://mrizkitriyanto.github.io/artikel/deploy-project-tailwind-github-pages/'
+    },
+    {
+        id:7,
+        image: linux,
+        title: 'Instal Visual Studio Code di Linux Menggunakan Flatpak',
+        category: 'Linux',
+        link: 'https://mrizkitriyanto.github.io/artikel/install-vscode-linux-via-flatpak/'
     },
 
 ]
