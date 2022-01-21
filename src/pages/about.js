@@ -37,9 +37,9 @@ function about() {
             <div className="mt-10 flex lg:flex-row md:flex-row flex-col items-start w-2/3 lg:mx-14 md:mx-10 mx-6 lg:items-start">
                 <p className="text-gray-800 dark:text-white lg:text-md text-sm font-black font-mono">Riyan/</p>
                 <a href="https://github.com/mrizkitriyanto" className="lg:text-md text-sm text-blue-500 text-md font-black font-mono hover:text-gray-800 dark:hover:text-gray-300" target="_blank" rel="noopener noreferrer">Github/</a>
-                <a href="https://t.me/muhamadrizkitriyanto" className="lg:text-md text-sm text-blue-500 text-md font-black font-mono hover:text-gray-800 dark:hover:text-gray-300" target="_blank" rel="noopener noreferrer">Telegram/</a>
+                <a href="https://t.me/akusiapakamusiapamaukemana" className="lg:text-md text-sm text-blue-500 text-md font-black font-mono hover:text-gray-800 dark:hover:text-gray-300" target="_blank" rel="noopener noreferrer">Telegram/</a>
                 <a href="https://www.instagram.com/thecyberwarboy" className="lg:text-md text-sm text-blue-500 text-md font-black font-mono hover:text-gray-800 dark:hover:text-gray-300" target="_blank" rel="noopener noreferrer">Instagram/</a>
-                <a href="https://www.linkedin.com/in/muhamad-rizki-triyanto" className="lg:text-md text-sm text-blue-500 text-md font-black font-mono hover:text-gray-800 dark:hover:text-gray-300" target="_blank" rel="noopener noreferrer">Linkedin/</a>
+                <a href="https://www.linkedin.com/in/rizki-triyanto" className="lg:text-md text-sm text-blue-500 text-md font-black font-mono hover:text-gray-800 dark:hover:text-gray-300" target="_blank" rel="noopener noreferrer">Linkedin/</a>
             </div>
 
             {/* Bagian Spesialisasi disini ada 2 (Tulisan Soesialisasi dan Item Spesialisasi) yang masing masing dipisah pakai FLEX */}
@@ -76,13 +76,13 @@ function about() {
                     </div>
 
                     <div className="m-5 p-5 h-70 lg:w-4/12 md:w-6/12 w-full bg-gray-800 dark:bg-white rounded">
-                        <img src={FE} alt="Front-End" className="h-12 mb-2" />
+                        <img src={FE} alt="Web -Dev" className="h-12 mb-2" />
                         <h1 className="text-gray-100 dark:text-gray-800 font-black font-mono text-xl">
-                            Front-End
+                            Web
                             Development
                         </h1>
                         <p className="mt-6 text-gray-100 dark:text-gray-800 font-mono font-medium text-xs lg:text-sm">
-                            Implementing visual and interactive elements that users engage with through their web browser when using a web application.<br /><span className="text-gray-700 dark:text-white">.</span>
+                        Assisting with the creation of websites and updating existing web applications<br /><br /><br /><span className="text-gray-700 dark:text-white">.</span>
                             <br /><span className="text-gray-800 dark:text-white">.</span>
                         </p>
                     </div>

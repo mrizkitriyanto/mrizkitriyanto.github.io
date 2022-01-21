@@ -1,7 +1,6 @@
 import python from '../images/Python_logo_icon.png';
 import ubuntu from '../images/Ubuntu.png';
 import linux from '../images/linux.png';
-import figma from '../images/figma.png';
 import tailwind from '../images/tailwind.png';
 import virtualbox from '../images/virtualbox.png';
 
